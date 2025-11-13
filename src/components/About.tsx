@@ -23,14 +23,14 @@ const About = React.memo(() => {
         description: "Creating beautiful Figma designs",
       },
       {
-        icon: <GitBranch className="w-6 h-6" />,
-        title: "Version Control",
-        description: "Git/GitHub and team collaboration",
-      },
-      {
         icon: <Users className="w-6 h-6" />,
         title: "Event Management",
         description: "PR and team coordination experience",
+      },
+      {
+        icon: <GitBranch  className="w-6 h-6" />,
+        title: "Version Control",
+        description: "Git/GitHub and team collaboration",
       },
     ],
     []
