@@ -69,7 +69,7 @@ const Contact = React.memo(() => {
         icon: <Github className="w-6 h-6" />,
         title: "GitHub",
         value: "divyanh907",
-        href: "https://github.com/divyanh907",
+        href: "https://github.com/DivyanshJain907",
       },
       {
         icon: <Figma className="w-6 h-6" />,
@@ -122,7 +122,7 @@ const Contact = React.memo(() => {
               isDark ? "text-gray-400" : "text-gray-600"
             }`}
           >
-            Open to freelance opportunities, collaborations, and open source contributions.
+            Open to freelance opportunities, collaborations, and Event Management contributions.
           </p>
         </div>
 
@@ -149,7 +149,7 @@ const Contact = React.memo(() => {
                 className={`${isDark ? "text-gray-400" : "text-gray-600"} mb-3`}
               >
                 Feel free to reach out for frontend projects, UI/UX collaborations, 
-                open source contributions, or just a friendly chat about design and development.
+                Event Planner, or just a friendly chat about design and development.
               </p>
             </div>
 

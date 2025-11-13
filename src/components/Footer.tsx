@@ -113,7 +113,7 @@ const Footer = React.memo(() => {
 
             <div className="flex space-x-4 justify-center">
               {[{
-                href: "https://github.com/divyanh907",
+                href: "https://github.com/DivyanshJain907",
                 icon: <Github size={20} className={isDark ? "text-white" : "text-gray-800"} />,
                 title: "GitHub"
               }, {

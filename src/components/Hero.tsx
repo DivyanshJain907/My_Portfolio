@@ -27,7 +27,7 @@ const Hero = React.memo(() => {
       "Frontend Developer",
       "UI/UX Designer",
       "CS Student",
-      "Open Source Learner",
+      "Event Manager",
     ],
     []
   );
@@ -116,7 +116,7 @@ const Hero = React.memo(() => {
       {
         name: "GitHub",
         icon: Github,
-        href: "https://github.com/divyanh907",
+        href: "https://github.com/DivyanshJain907",
         color: isDark ? "hover:text-gray-300" : "hover:text-gray-700",
         bgColor: isDark ? "hover:bg-gray-500/20" : "hover:bg-gray-500/10",
       },

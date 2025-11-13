@@ -15,22 +15,22 @@ const OpenSource = React.memo(() => {
         icon: <Github className="w-8 h-8" />,
         title: "GitHub Profile",
         description: "Active GitHub user with experience in version control and collaborative development",
-        link: "https://github.com/divyanh907",
-        stats: "10+ repositories",
+        link: "https://github.com/DivyanshJain907",
+        stats: "6+ repositories",
       },
       {
         icon: <GitBranch className="w-8 h-8" />,
-        title: "Version Control",
-        description: "Proficient in Git workflows, branching strategies, and collaborative coding practices",
+        title: "Team Leadership",
+        description: "Founded and managed the Placement Committee for 3000+ Computer Science students, ensuring smooth coordination and communication.",
         link: "#",
-        stats: "Git & GitHub",
+        stats: "Batch 2028 • 3000+ Students",
       },
       {
         icon: <Users className="w-8 h-8" />,
-        title: "Team Collaboration",
-        description: "Experience working with teams using Git/GitHub for project coordination and code reviews",
+        title: "Event Management",
+        description: "Successfully organized and executed 20+ university and placement events, handling logistics, PR, and on-ground operations.",
         link: "#",
-        stats: "Team Projects",
+        stats: "6+ Events • 20+ Drives",
       },
       {
         icon: <GitPullRequest className="w-8 h-8" />,
@@ -99,9 +99,7 @@ const OpenSource = React.memo(() => {
                 My experience with <strong className={isDark ? "text-white" : "text-gray-900"}>Git/GitHub</strong> and 
                 team collaboration has prepared me well for open source contributions.
                 <br /><br />
-                I believe in the power of collaborative development and learning from others. Whether it's fixing bugs, 
-                adding features, or improving documentation, I'm ready to contribute to meaningful projects that make 
-                a difference in the developer community.
+                I believe in the power of teamwork and effective communication to make every event a success. Whether it’s planning, coordinating volunteers, or managing on-ground operations, I strive to create smooth, impactful experiences that bring people together and deliver real results.
                 <br /><br />
                 My skills in <strong className={isDark ? "text-white" : "text-gray-900"}>HTML, CSS, JavaScript, and Figma</strong> 
                 allow me to contribute to frontend projects, UI/UX improvements, and design systems.
@@ -111,7 +109,7 @@ const OpenSource = React.memo(() => {
             {/* Call to Action */}
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://github.com/divyanh907"
+                href="https://github.com/DivyanshJain907"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`inline-flex items-center space-x-2 px-6 py-3 rounded-lg transition-all duration-200 font-medium ${
@@ -214,18 +212,14 @@ const OpenSource = React.memo(() => {
                 isDark ? "text-white" : "text-gray-900"
               }`}
             >
-              Why I'm Interested in Open Source
+              Why I'm Interested in Event Management
             </h3>
             <p
               className={`max-w-3xl mx-auto leading-relaxed ${
                 isDark ? "text-gray-400" : "text-gray-600"
               }`}
             >
-              Open source development offers incredible opportunities to learn from experienced developers, 
-              contribute to meaningful projects, and build a strong portfolio. I'm particularly interested 
-              in frontend projects, UI/UX improvements, and tools that help other developers be more productive. 
-              My experience with version control and team collaboration makes me ready to start contributing 
-              to the open source community.
+              Event management offers incredible opportunities to learn from people, build strong networks, and create impactful experiences. I’m particularly interested in organizing placement drives, alumni meets, and professional sessions that help students connect with industry experts and grow. My experience in leading teams, managing large-scale events, and coordinating with corporate professionals has strengthened my ability to handle pressure, communicate effectively, and deliver successful outcomes.
             </p>
           </div>
         </div>

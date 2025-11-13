@@ -29,7 +29,21 @@ const Timeline = React.memo(() => {
         ],
       },
       {
-        type: "volunteering",
+  type: "Organization",
+  title: "Placement Volunteers Committee Founder & Lead Coordinator",
+  organization: "Bennett University – CSE Batch 2028",
+  organizationLogo: "/images/experience/uni.webp",
+  location: "On-site",
+  period: "Aug 2025 – Present",
+  description: [
+    "Founded and structured the complete Placement Committee for 3000+ Computer Science students.",
+    "Led and mentored a diverse team to streamline event coordination and communication.",
+    "Organized multiple placement drives, corporate sessions, and student engagement events.",
+    "Built strong collaboration between students, faculty, and recruiters for smooth operations.",
+  ],
+},
+      {
+        type: "Organization",
         title: "PR & Management Team Member",
         organization: "Converge 3.0 Alumni Meet",
         organizationLogo: "/images/experience/uni.webp",

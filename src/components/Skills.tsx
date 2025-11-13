@@ -18,7 +18,7 @@ const Skills = React.memo(() => {
         skills: [
           { name: "C++", level: 85 },
           { name: "Python", level: 80 },
-          { name: "Java", level: 75 },
+          { name: "Java", level: 80 },
         ],
       },
       {
@@ -35,15 +35,15 @@ const Skills = React.memo(() => {
         title: "Databases & Tools",
         skills: [
           { name: "SQL", level: 75 },
-          { name: "MySQL", level: 70 },
+          { name: "MySQL", level: 80 },
           { name: "Microsoft Excel", level: 90 },
         ],
       },
       {
         title: "Version Control & Collaboration",
         skills: [
-          { name: "Git", level: 80 },
-          { name: "GitHub", level: 80 },
+          { name: "Git", level: 85 },
+          { name: "GitHub", level: 90 },
         ],
       },
     ],
