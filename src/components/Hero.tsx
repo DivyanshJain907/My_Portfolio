@@ -238,7 +238,7 @@ const Hero = React.memo(() => {
             <span className="font-semibold">Email Me</span>
           </a>
           <button
-            onClick={scrollToProjects}
+            // onClick={scrollToProjects}
             className={`px-8 py-4 rounded-full font-semibold shadow-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl border-2 ${
               isDark 
                 ? "border-white/30 text-white hover:bg-white/10 hover:border-white/50" 
