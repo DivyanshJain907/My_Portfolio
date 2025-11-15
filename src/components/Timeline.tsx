@@ -16,6 +16,24 @@ const Timeline = React.memo(() => {
   const timelineItems = useMemo(
     () => [
       {
+  type: "Organization",
+  title: "Event & Registration Lead",
+  organization: "Convocation Ceremony 2025 – Bennett University",
+  organizationLogo: "/images/experience/uni.webp",
+  location: "On-site",
+  period: "Nov 2025",
+  description: [
+    "Led the Registration Team with 20+ members for the smooth onboarding of graduating students.",
+    "Managed the Alumni Registration Portal, completing the transition of 2,000+ students across all courses.",
+    "Oversaw crowd management and ensured disciplined flow of students and guests throughout the event.",
+    "Coordinated stage operations during degree submission to maintain proper sequencing and time accuracy.",
+    "Collaborated with university officials and event partners for seamless execution of the ceremony.",
+    "Had the privilege of interacting with distinguished guests including Mr. Ritesh Agarwal (Founder & Group CEO, Prism), Mr. Nadir B. Godrej (Chairperson, Godrej Industries Group & Managing Director), and Honourable Dean Mr. Abhay Bansal."
+  ],
+},
+
+
+      {
         type: "work",
         title: "Data Analytics Intern",
         organization: "Imarticus",
