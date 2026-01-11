@@ -246,7 +246,7 @@ const Hero = React.memo(() => {
                 : "border-gray-900/30 text-gray-900 hover:bg-gray-900/10 hover:border-gray-900/50"
             }`}
           >
-            <a href="https://drive.google.com/file/d/1i36xFgFEna2CGlWTmn-JzrVUzUmidMTR/view?usp=sharing">Download CV</a>
+            <a href="https://docs.google.com/document/d/1Qlpcj4THbKXSS07Cqlx7a9zDfy_uiU3_/edit?usp=sharing&ouid=114581283451301964572&rtpof=true&sd=true">Download CV</a>
           </button>
         </div>
 
