@@ -219,6 +219,7 @@ const Hero = React.memo(() => {
           isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         } ${isDark ? "text-gray-400" : "text-gray-600"}`}>
           Enthusiastic and detail-oriented Computer Science student with hands-on experience in 
+           <span className="font-semibold text-blue-900"> fullstack development</span>,
           <span className="font-semibold text-blue-500"> frontend development</span>, 
           <span className="font-semibold text-purple-500"> UI/UX design</span>, and 
           <span className="font-semibold text-pink-500"> team-based project execution</span>.

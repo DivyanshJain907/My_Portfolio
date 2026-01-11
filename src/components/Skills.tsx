@@ -16,6 +16,7 @@ const Skills = React.memo(() => {
       {
         title: "Programming Languages",
         skills: [
+          { name: "C", level: 85 },
           { name: "C++", level: 85 },
           { name: "Python", level: 80 },
           { name: "Java", level: 80 },
@@ -28,6 +29,7 @@ const Skills = React.memo(() => {
           { name: "CSS", level: 85 },
           { name: "JavaScript", level: 80 },
           { name: "React.js", level: 75 },
+          { name: "Next.js", level: 75 },
           { name: "Figma", level: 90 },
         ],
       },
@@ -37,12 +39,14 @@ const Skills = React.memo(() => {
           { name: "SQL", level: 75 },
           { name: "MySQL", level: 80 },
           { name: "Microsoft Excel", level: 90 },
+          { name: "Mongo DB", level: 85 },
         ],
       },
       {
         title: "Version Control & Collaboration",
         skills: [
           { name: "Git", level: 85 },
+          { name: "Docker", level: 70 },
           { name: "GitHub", level: 90 },
         ],
       },
@@ -59,8 +63,8 @@ const Skills = React.memo(() => {
       id="skills"
       className={`py-20 relative transition-colors duration-700 ${
         isDark
-          ? "bg-gradient-to-b from-gray-950 via-gray-900 to-black text-white"
-          : "bg-gradient-to-b from-blue-100 via-white to-blue-50 text-gray-900"
+          ? "bg-transparent text-white"
+          : "bg-transparent text-gray-900"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -98,12 +102,12 @@ const Skills = React.memo(() => {
                 isDark
                   ? "bg-white/5 border border-white/10"
                   : "bg-white border border-gray-200"
-              } backdrop-blur-xl rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-2xl hover:border-teal-400`}
+              } backdrop-blur-xl rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-2xl hover:border-blue-900`}
             >
               <div className="text-center mb-6">
                 <h3 className={`text-xl font-semibold ${
                   isDark ? "text-heading-dark" : "text-heading-light"
-                } font-heading group-hover:text-teal-400 transition-colors`}>
+                } font-heading group-hover:text-blue-900 transition-colors`}>
                   {category.title}
                 </h3>
               </div>
@@ -144,7 +148,7 @@ const Skills = React.memo(() => {
                     </div>
                     <p className={`mt-2 text-sm ${
                       isDark ? "text-gray-300" : "text-gray-700"
-                    } group-hover:text-teal-500 transition-colors`}>
+                    } group-hover:text-white-900 transition-colors`}>
                       {skill.name}
                     </p>
                   </div>

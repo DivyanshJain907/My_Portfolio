@@ -31,6 +31,19 @@ const Timeline = React.memo(() => {
     "Had the privilege of interacting with distinguished guests including Mr. Ritesh Agarwal (Founder & Group CEO, Prism), Mr. Nadir B. Godrej (Chairperson, Godrej Industries Group & Managing Director), and Honourable Dean Mr. Abhay Bansal."
   ],
 },
+{
+  type: "work",
+  title: "UI/UX Design Intern",
+  organization: "HiTutor",
+  organizationLogo: "/images/experience/intern.webp",
+  location: "Remote",
+  period: "Aug 2025",
+  description: [
+    "Designed core UI/UX components with a primary focus on the Teacher Dashboard",
+    "Created structured dashboard layouts emphasizing usability, clarity, and information hierarchy",
+    "Translated product requirements into intuitive interface designs using Figma",
+  ],
+},
 
 
       {

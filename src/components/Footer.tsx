@@ -67,13 +67,11 @@ const Footer = React.memo(() => {
     isDark ? "text-white" : "text-gray-900"
   }`}
 >
-  Divyansh
+  Divyansh Jain
 </h3>
 
             <p className={`leading-relaxed ${isDark ? "text-gray-300" : "text-gray-600"}`}>
-              Frontend Developer & UI/UX Enthusiast passionate about creating
-              beautiful, functional web experiences and contributing to open
-              source projects.
+              Full-Stack & Frontend Developer with a UI/UX mindset, focused on building scalable, intuitive web experiences with clean design and robust architecture.
             </p>
           </div>
 

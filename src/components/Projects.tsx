@@ -16,13 +16,26 @@ const Projects = React.memo(() => {
 
   // Project categories for filter buttons
   const categories = useMemo(
-    () => ["All", "Frontend", "UI/UX", "Open Source"],
+    () => [],
     []
   );
 
   // Project list (can be expanded as needed)
   const projects = useMemo(
     () => [
+      {
+        title: "TrackU",
+        description:
+          "TrackU is a modern, user-friendly club management platform designed to help club leaders and team coordinators streamline their operations. Whether you're managing a sports club, hobby group, professional association, or community organization, TrackU provides all the tools you need to keep your club organized and members engaged.",
+        image:"https://images.pexels.com/photos/3912956/pexels-photo-3912956.jpeg?auto=compress&cs=tinysrgb&w=800",
+        technologies: ["Next.js","Mongo DB","HTML", "CSS", "TypeScript", "Figma"],
+        liveUrl: "https://trackbu.vercel.app/",
+        githubUrl:
+          "https://github.com/DivyanshJain907/TrackU",
+        date: "2025",
+        category: "FullStack",
+      },
+
       {
         title: "Wheel-o-Rent",
         description:
@@ -31,7 +44,7 @@ const Projects = React.memo(() => {
         technologies: ["HTML", "CSS", "JavaScript", "Figma", "Teamwork"],
         liveUrl: "https://wheel-o-rent.vercel.app/",
         githubUrl:
-          "https://github.com/Dhruv-201004/Wheel-O-Rent",
+          "https://github.com/DivyanshJain907/WheelORent",
         date: "2025",
         category: "Frontend",
       },
@@ -44,18 +57,8 @@ const Projects = React.memo(() => {
         liveUrl: "https://resume-insight.onrender.com/",
         githubUrl: "https://github.com/DivyanshJain907/AI-Powered-Resume-Analyzer",
         date: "2024",
-        category: "AI/UX",
+        category: "UI/UX",
       },
-      {
-  title: "BarberHub-Salon Booking UI",
-  description:
-    "Designed a modern and intuitive salon booking user interface using Figma. The project focuses on delivering a smooth user experience with clean layouts for booking appointments, viewing services, and managing profiles.",
-  image: "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=800", // Optional: Replace with your own Figma screenshot if available
-  technologies: ["Figma", "UI/UX Design", "Prototyping"],
-  liveUrl: "https://www.figma.com/design/mlu0evtlTx5JdbG9YfllsP/BARBER-HUB?node-id=0-1&t=tL2jirshvAde8juJ-1", // Replace with your actual Figma file/view link
-  date: "2024",
-  category: "UI/UX Design",
-}
 
     ],
     []
@@ -290,7 +293,7 @@ const Projects = React.memo(() => {
           }`}
         >
           <a
-            href="https://github.com/divyanh907"
+            href="https://github.com/divyanshJain907"
             target="_blank"
             rel="noopener noreferrer"
             className={`inline-flex items-center space-x-2 px-8 py-4 rounded-full transition-all duration-100 border ${

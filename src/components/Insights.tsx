@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import { BookOpen, Lightbulb, TrendingUp, Users, Calendar, ExternalLink } from "lucide-react";
+import { BookOpen, Lightbulb, TrendingUp, Users, Calendar, ExternalLink, Code2 } from "lucide-react";
 import { useTheme } from "../contexts/ThemeContext";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
@@ -11,6 +11,15 @@ const Insights = React.memo(() => {
   // Insights and learnings
   const insights = useMemo(
     () => [
+      {
+  icon: <Code2 className="w-6 h-6" />,
+  title: "Full-Stack Web Development",
+  category: "Development",
+  date: "2025",
+  description: "Built full-stack web applications using Next.js with server-side rendering, API routes, and MongoDB for scalable data storage and backend logic.",
+  tags: ["Next.js", "MongoDB", "Full Stack", "REST APIs"],
+},
+
       {
         icon: <BookOpen className="w-6 h-6" />,
         title: "UI/UX Design Principles",
@@ -43,6 +52,15 @@ const Insights = React.memo(() => {
         description: "Developed strong communication and project coordination skills through volunteering roles at various organizations.",
         tags: ["Leadership", "Communication", "Project Management"],
       },
+      {
+  icon: <Users className="w-6 h-6" />,
+  title: "Public Relations & Outreach",
+  category: "Management",
+  date: "2024–2025",
+  description: "Handled public relations and outreach activities, coordinating communication, managing registrations, and supporting event operations through clear stakeholder engagement.",
+  tags: ["Public Relations", "Outreach", "Communication", "Event Coordination"],
+},
+
     ],
     []
   );

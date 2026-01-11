@@ -60,7 +60,7 @@ const About = React.memo(() => {
               isDark ? "text-gray-400" : "text-gray-600"
             }`}
           >
-            Passionate frontend developer and UI/UX enthusiast creating meaningful digital experiences
+            Passionate fullstack, frontend developer and UI/UX enthusiast creating meaningful digital experiences
           </p>
         </div>
 
@@ -119,7 +119,7 @@ const About = React.memo(() => {
                   isDark ? "text-gray-400" : "text-gray-600"
                 }`}
               >
-                Enthusiastic and detail-oriented Computer Science student with hands-on experience in frontend development, UI/UX design (Figma), and team-based project execution. Proven ability to contribute effectively in both technical and organizational roles, demonstrated through academic projects and volunteer work in public relations and event coordination. Passionate about building intuitive digital experiences and collaborating cross-functionally to deliver successful outcomes.
+                I’m a Computer Science student focused on full-stack and frontend development with UI/UX design, building scalable and user-centric web applications. I work with Next.js to develop responsive interfaces and implement backend logic using modern web architectures, supported by relational databases for structured data management. Alongside development, I design intuitive interfaces in Figma, ensuring strong usability, performance, and clean system flow. Through hands-on projects, I continuously refine my skills across the stack while aiming to create digital products that are efficient, maintainable, and impactful.
               </p>
             </div>
 
