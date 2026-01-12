@@ -16,7 +16,7 @@ const OpenSource = React.memo(() => {
         title: "GitHub Profile",
         description: "Active GitHub user with experience in version control and collaborative development",
         link: "https://github.com/DivyanshJain907",
-        stats: "6+ repositories",
+        stats: "14+ repositories",
       },
       {
         icon: <GitBranch className="w-8 h-8" />,
