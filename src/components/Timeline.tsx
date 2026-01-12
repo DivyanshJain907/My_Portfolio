@@ -35,7 +35,7 @@ const Timeline = React.memo(() => {
   type: "work",
   title: "UI/UX Design Intern",
   organization: "HiTutor",
-  organizationLogo: "/images/experience/intern.webp",
+  organizationLogo: "/images/experience/hitutor.webp",
   location: "Remote",
   period: "Aug 2025",
   description: [
