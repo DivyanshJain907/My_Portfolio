@@ -68,7 +68,7 @@ const Contact = React.memo(() => {
       {
         icon: <Github className="w-6 h-6" />,
         title: "GitHub",
-        value: "divyanh907",
+        value: "DivyanshJain907",
         href: "https://github.com/DivyanshJain907",
       },
       {
